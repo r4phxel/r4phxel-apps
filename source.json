@@ -8,7 +8,34 @@
   "iconURL": "https://r4phxel.github.io/r4phxel-apps/media/publisher-icon.png",
   "headerURL": "https://r4phxel.github.io/r4phxel-apps/media/catalog-cover.jpg",
   "tintColor": "#581D55",
-  "featuredApps": [],
-  "apps": [],
+  "featuredApps": [
+    "com.indiz.game"
+  ],
+  "apps": [
+    {
+      "name": "INDIZ",
+      "bundleIdentifier": "com.indiz.game",
+      "developerName": "r4phxel",
+      "subtitle": "Detektivspiel fürs iPhone",
+      "localizedDescription": "Jedes Geheimnis hinterlässt Spuren.\n\nNele bittet dich, einer verdächtigen Nachricht auf Mats’ fiktivem iPhone nachzugehen. Durchsuche Chats, Fotos, Notizen und Termine. Verknüpfe die Hinweise und beantworte zehn Fragen, um den Fall „Nele & Mats“ zu lösen.",
+      "iconURL": "https://r4phxel.github.io/r4phxel-apps/media/indiz-icon.png",
+      "tintColor": "#9E2866",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-16",
+          "localizedDescription": "Neu\n- Erster spielbarer Fall „Nele & Mats“.",
+          "downloadURL": "https://github.com/r4phxel/r4phxel-apps/releases/download/indiz-v1.0/INDIZ_1.0.ipa",
+          "size": 53362592,
+          "minOSVersion": "26.0"
+        }
+      ]
+    }
+  ],
   "news": []
 }
