@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>r4phxel apps – App-Katalog fürs iPhone</title>
+  <meta name="description" content="Der App-Katalog von r4phxel. Entdecke INDIZ und weitere iPhone-Apps für SideStore.">
+  <meta name="theme-color" content="#fbf8f7">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="r4phxel apps">
+  <meta property="og:description" content="Apps und Spiele fürs iPhone.">
+  <meta property="og:url" content="https://r4phxel.github.io/r4phxel-apps/">
+  <meta property="og:image" content="https://r4phxel.github.io/r4phxel-apps/media/catalog-cover.jpg">
+  <link rel="canonical" href="https://r4phxel.github.io/r4phxel-apps/">
+  <link rel="icon" type="image/png" href="media/publisher-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="catalog.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="wordmark" href="./">
+      <img src="media/publisher-icon.png" alt="" width="36" height="36">
+      <span>r4phxel apps</span>
+    </a>
+    <a class="nav-link" href="#apps">App-Auswahl <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-content">
+        <h1 id="page-title">Apps fürs iPhone</h1>
+        <p>Entdecke meine Apps und Spiele. Füge den Katalog in SideStore hinzu, um Installationen und Updates an einem Ort zu finden.</p>
+        <a class="button button-light" href="sidestore://source?url=https%3A%2F%2Fr4phxel.github.io%2Fr4phxel-apps%2Fsource.json">
+          In SideStore hinzufügen <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="catalog" id="apps" aria-labelledby="catalog-title">
+      <h2 id="catalog-title">Alle Apps</h2>
+      <div class="app-list" id="app-list"></div>
+
+      <article class="app-card" id="indiz-preview">
+        <div class="app-art">
+          <img src="media/indiz-icon.png" alt="" width="116" height="116">
+        </div>
+        <div class="app-content">
+          <h3>INDIZ</h3>
+          <p class="app-subtitle">Detektivspiel fürs iPhone</p>
+          <p class="app-description">Durchsuche das fiktive iPhone von Mats, verknüpfe die Hinweise und löse den Fall „Nele &amp; Mats“.</p>
+          <p class="availability">Demnächst verfügbar</p>
+        </div>
+      </article>
+      <p class="catalog-message" id="catalog-message" role="status" hidden></p>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <details>
+      <summary>Quelle manuell hinzufügen</summary>
+      <p>Öffne auf dem iPhone in SideStore den Tab <strong>Sources</strong>, tippe auf <strong>+</strong> und füge diese Adresse ein.</p>
+      <a class="source-url" id="source-url" href="https://r4phxel.github.io/r4phxel-apps/source.json">https://r4phxel.github.io/r4phxel-apps/source.json</a>
+      <button type="button" id="copy-source" class="copy-button" hidden>Adresse kopieren</button>
+      <span class="copy-status" id="copy-status" role="status"></span>
+    </details>
+    <a href="https://github.com/r4phxel/r4phxel-apps/releases">GitHub Releases <span aria-hidden="true">↗</span></a>
+  </footer>
+
+  <template id="app-card-template">
+    <article class="app-card">
+      <div class="app-art">
+        <img alt="" width="116" height="116" loading="lazy">
+      </div>
+      <div class="app-content">
+        <h3></h3>
+        <p class="app-subtitle"></p>
+        <p class="app-description"></p>
+        <p class="app-meta"></p>
+        <a class="button button-dark">IPA herunterladen <span aria-hidden="true">↓</span></a>
+        <details class="release-notes">
+          <summary>Was ist neu?</summary>
+          <p></p>
+        </details>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

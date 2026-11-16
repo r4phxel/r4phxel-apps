@@ -1,0 +1,14 @@
+{
+  "name": "r4phxel apps",
+  "identifier": "com.r4phxel.apps",
+  "sourceURL": "https://r4phxel.github.io/r4phxel-apps/source.json",
+  "website": "https://r4phxel.github.io/r4phxel-apps/",
+  "subtitle": "Apps und Spiele fürs iPhone",
+  "description": "Der App-Katalog von r4phxel. Hier erscheinen INDIZ und weitere iPhone-Apps.",
+  "iconURL": "https://r4phxel.github.io/r4phxel-apps/media/publisher-icon.png",
+  "headerURL": "https://r4phxel.github.io/r4phxel-apps/media/catalog-cover.jpg",
+  "tintColor": "#581D55",
+  "featuredApps": [],
+  "apps": [],
+  "news": []
+}
