@@ -26,6 +26,15 @@
       },
       "versions": [
         {
+          "version": "1.0.1",
+          "buildVersion": "2",
+          "date": "2026-11-17",
+          "localizedDescription": "Neu\n- Spielstände lassen sich in den Einstellungen als Datei exportieren und wieder importieren.\n- Der Menüknopf mit den drei Punkten reagiert jetzt auf der gesamten Schaltfläche.",
+          "downloadURL": "https://github.com/r4phxel/r4phxel-apps/releases/download/indiz-v1.0.1/INDIZ_1.0.1.ipa",
+          "size": 53356310,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2026-11-16",
